@@ -1,0 +1,202 @@
+
+/*product-card style start here*/
+.container
+{
+  margin:0px;
+  padding:0px;
+  height:100%;
+  width:100%;
+}
+.products
+{
+  width:100%;
+  display:grid;
+  grid-template-columns:23% 23% 23% 23%;
+ 
+  gap:30px;
+  row-gap:50px;
+}
+.card
+{
+  width:90%;
+  border:1px solid rgba(0,0,0,0.1);
+  margin:20px;
+  padding:10px
+}
+.image img
+{
+  width:100%;
+}
+.image
+{
+  width:100%;
+  background:rgba(0,0,0,0.02);
+}
+.description h1
+{
+  font-weight:bold;
+  font-size:19.5px;
+  font-family:arial;
+}
+.description p
+{
+  font-size:15px;
+  color:gray;
+  font-family:georgia;
+}
+.rating img
+{
+  width:15px;
+  height:15px;
+}
+.price
+{
+  font-weight:bold;
+  color:blue;
+  font-family:arial;
+}
+.price-rating
+{
+  display:flex;
+  justify-content:space-between;
+  font-family:arial;
+  line-height:40px;
+}
+.like-btn
+{
+  width:25px;
+  height:25px;
+  border-radius:100%;
+  float:right;
+  text-align:center;
+  border:1px solid rgba(0,0,0,0.1);
+  background:white;
+  position:relative;
+}
+.like-btn img
+{
+  width:15px;
+  height:12px;
+  top:7px;
+  left:5px;
+  position:absolute;
+}
+.btn-image2
+{
+  display:none;
+}
+//.like-btn:active .btn-image2
+{
+  display:block;
+}
+.buy-btn
+{
+  display:flex;
+  justify-content:space-between;
+  padding-top:10px;
+}
+.buy-btn button
+{
+  width:100px;
+  height:30px;
+  border-radius:5px;
+  border:1px solid rgba(0,0,0,0.1);
+  background:orange;
+  color:black;
+  font-family:arial;
+  opacity:0.9;
+}
+.buy-btn button:hover
+{
+  box-shadow:0px 6px 7px rgba(0,0,0,0.1);
+}
+.buy-btn button:active
+{
+  box-shadow:inset 0px 0px 5px rgba(0,0,0,0.1);
+  opacity:1;
+}
+/*product-card style end here*/
+/*nav-bar style start here*/
+.nav-bar
+{
+  width:100%;
+  background:rgba(225, 217, 235,0.3);
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  flex-wrap:wrap;
+}
+@media (max-width:1100px)
+{
+  .nav-bar
+  {
+    justify-content:center;
+    align-items:center;
+    font-size:15px
+  }
+  .nav-logo img
+  {
+    padding-left:0px;
+  }
+ .icon
+  {
+    margin-bottom:10px;
+  }
+  .card
+  {
+    width:90%;
+    padding:10px;
+    margin:20px;
+    
+  }
+.products
+{
+  width:100%;
+  display:grid;
+  grid-template-columns:90%;
+  margin:10px;
+  gap:0px;
+  row-gap:0px;
+ 
+}
+  .description h1
+  {
+    font-size:15px
+  }
+}
+
+
+
+
+
+.nav-logo img
+{
+  width:70px;
+  height:50px;
+}
+.icon
+{
+  position:relative;
+}
+.icon a
+{
+  margin:10px;
+}
+.icon a img
+{
+  width:20px;
+  height:20px;
+}
+ul li
+{
+  display:inline-block;
+ margin:10px;
+  font-family:arial;
+  border-bottom:1px solid rgba(0,0,0,0.1);
+}
+
+
+
+
+
+/*nav-bar style end here*/
